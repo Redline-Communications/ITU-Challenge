@@ -34,7 +34,7 @@ Our modified script for training data generation is included in this repository 
 Our proposed solution is based on K-Nearest Neighbor (KNN) machine learning algorithm. Here is the basic idea behind this algorithm: For training channels we have the received pilots (*r*) and the channel matrix (*H*). For test channels, we only have *r* and want to estimate *H* based on the existing training data. This estimation problem is similar to a regression problem where we have 10,000 sets of (*r, H*) data points for training channels, and we want to estimate the *H* for a test channel using its *r*. The algorithm tries to find the nearest neighbors for the test channel *r* (referred to as *r_test* here) among the existing training channel *r*’s (*r_training*’s). After finding the right neighborhood for the test channel using KNN algorithm on *r*, the proposed solution speculates that the same neighborhood is also valid for *H*. In other words, the algorithm assumes that the training channels that are the nearest neighbors to a test channel based on *r* are also its nearest neighbors based on *H*. Based on this speculation, the algorithm estimates the *H* of a test channel (*H_test*) based on the *H*’s of training channels in its neighborhood determined based on its *r*. The basic concept of the proposed solution is demonstrated in Figure 1.
 
 
-![Figure 1](/knn_example.png)
+![Figure 1](knn_example.png)
 
 **Figure 1 Basic concept of using nearest neighbors in channel estimation**
 
