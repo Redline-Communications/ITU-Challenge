@@ -1,10 +1,6 @@
-# ML5G-PHY Challenge Report - Redline Team
-\
-### October 28, 2020
+# ML5G-PHY Challenge Report - Redline Team\
 
-\
-\
-\
+### October 28, 2020\
 
 #### Redline Team Members:
 #### • Ali Arad,                           
@@ -12,11 +8,7 @@
 #### • Brad Stimpson,                   
 #### • Manbir Kaur               
 
-#### Contacts: aarad@rdlcom.com, fdujmenovic@rdlcom.com  
-
-\
-\
-\
+#### Contacts: aarad@rdlcom.com, fdujmenovic@rdlcom.com\  
 
 
 # 1	INTRODUCTION
