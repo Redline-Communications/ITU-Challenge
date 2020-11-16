@@ -12,7 +12,7 @@
 #### • Manbir Kaur              
 <br />
 
-#### Contacts: aarad@rdlcom.com, fdujmenovic@rdlcom.com  
+#### Contact: aarad@rdlcom.com
 <br />
 
 # 1	INTRODUCTION
