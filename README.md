@@ -44,7 +44,7 @@ Our proposed solution is based on K-Nearest Neighbor (KNN) machine learning algo
 
 Details of the implemented algorithm are described in following sections.
 
-## 3.1	KNN algorithm for r
+## 3.1	KNN algorithm for *r*
 We use KNN algorithm to find nearest neighbor of a test channel by comparing its *r_test* with the *r* of training channels in each training data set. The distance between *r_test* and *r* of a training channel is defined as the Normalized Mean Square Error (NMSE) between these two arrays. The KNN algorithm calculates NMSE between *r_test* and *r* of each training channel in a training set (containing 1000 channels), and identifies *K* nearest neighbor training channels with the least NMSE value. In our implementation we used *K*=5 to find the 5 nearest training channels in each set. 
 
 ## 3.2	KNN across multiple training datasets
