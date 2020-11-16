@@ -2,21 +2,17 @@
 <br />
 
 ### October 28, 2020
+<br />
 
-<br />
-<br />
 
 #### Redline Team Members:
 #### • Ali Arad,                           
 #### • Felix Dujmenovic,            
 #### • Brad Stimpson,                   
-#### • Manbir Kaur   
-            
+#### • Manbir Kaur              
 <br />
 
 #### Contacts: aarad@rdlcom.com, fdujmenovic@rdlcom.com  
-
-<br />
 <br />
 
 # 1	INTRODUCTION
