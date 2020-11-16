@@ -69,3 +69,10 @@ After identifying the nearest neighbors using KNN algorithm, we calculate the es
 
 The source code of the proposed algorithm is included in the repository (*channel_estimation_redline_team.m* file).
 
+# 5	ESTIMATED CHANNEL MATRIX FILES
+
+The estimated channel matrices for each test scenario are saved in an HDF5 file named *estimated_channelH_n_pilots_x_data_set.hdf5* where *x* is the data_set value (1, 2 or 3) corresponding to the SNR range and n is the number of training symbols (Ntrain). This file naming method is similar to the one used for test dataset files you provided.
+
+Each of the 9 channel matrix file contains *H* matrices for 1000 test channels. Similar to the method used in provided Rx pilot datasets, the real and imaginary parts of *H* matrices are stored in separate datasets within the HDF5 file. The real part of H is stored in “*channel_matrix_real*” dataset, while the imaginary part is stored in “*channel_matrix_imag*” dataset.
+
+
